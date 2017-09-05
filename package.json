@@ -1,6 +1,6 @@
 {
   "name": "jpg-is-cmyk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check jpg is cmyk",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -21,5 +21,14 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^8.0.26"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zengming00/node-jpg-is-cmyk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zengming00/node-jpg-is-cmyk/issues"
+  },
+  "homepage": "https://github.com/zengming00/node-jpg-is-cmyk#readme"
 }
