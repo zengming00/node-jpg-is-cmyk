@@ -1,0 +1,25 @@
+{
+  "name": "jpg-is-cmyk",
+  "version": "1.0.0",
+  "description": "check jpg is cmyk",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "compile": "rm -rf dist && tsc",
+    "lint": "tslint --fix ./src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run lint && npm run compile"
+  },
+  "keywords": [
+    "jpg",
+    "cmyk"
+  ],
+  "author": "zengming",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^8.0.26"
+  }
+}
