@@ -45,9 +45,9 @@ export function check_ICC_PROFILE(data: Buffer) {
 // 检查是否是cmyk
 export function check_cmyk(data: Buffer) {
   // CMYK
-  if (data.includes('CMYK')) {
-    return true;
-  }
+  // if (data.includes('CMYK')) {
+  //   return true;
+  // }
 
   // 解析jpg格式
   let pos = 0;
